@@ -333,7 +333,7 @@ a:focus {
 .about_detail-container::before {
   content: "";
   position: absolute;
-  width: 150%;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -370,7 +370,8 @@ a:focus {
   position: relative;
 }
 
-.about_img-box::before {
+/* .about_img-box::before {
+
   content: "";
   width: 18%;
   height: 10%;
@@ -379,9 +380,9 @@ a:focus {
   right: 0;
   bottom: 25%;
 
-}
+} */
 
-.about_img-box::after {
+/* .about_img-box::after {
   content: "";
   position: absolute;
   width: 18%;
@@ -392,7 +393,7 @@ a:focus {
   background-size: 20px;
   background-position: 15px;
   background-repeat: no-repeat;
-}
+} */
 
 /* end about section */
 
@@ -719,3 +720,9 @@ a:focus {
 }
 
 /* end footer section*/
+
+
+.testimonial-pic {
+  width: 105px;
+  border-radius: 50%;
+}
